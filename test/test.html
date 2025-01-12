@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="../data/charged_moves.js"></script>
+    <script defer src="../data/cp_multiplier.js"></script>
+    <script defer src="../data/fast_moves.js"></script>
+    <script defer src="../data/generation.js"></script>
+    <script defer src="../data/pokemon_moves.js"></script>
+    <script defer src="../data/pokemon_type.js"></script>
+    <script defer src="../data/pokemon.js"></script>
+    <script defer src="../data/type_effectiveness.js"></script>
+    <script defer src="../data/class_type.js"></script>
+    <script defer src="../data/class_attack.js"></script>
+    <script defer src="../data/class_pokemon.js"></script>
+    <script defer src="../data/jquery-3.7.1.min.js"></script>
+    <script defer src="./test.js"></script>
+    <link rel="stylesheet" href="../css/test.css">
+    <title>Page de test des fonctions</title>
+</head>
+<body>
+    <div id="inputs">
+        <div>
+            <h1>Type :</h1>
+            <input type="text" name="type" id="type" placeholder="Entrez un type">
+        </div>
+        <div>
+            <h1>Attaque name :</h1>
+            <input type="text" name="attack" id="attack" placeholder="Entrez un nom d'attaque">
+        </div>
+        <div>
+            <h1>Pokemon name :</h1>
+            <input type="text" name="pokemon_name" id="pokemon_name" placeholder="Entrez un nom d'attaque">
+        </div>
+    </div>
+    <div id="functions">
+        <div>
+            <a href="javascript:handlePokemonType()">Récupérer les pokemons par leur type</a>
+            <a href="javascript:handlePokemonByAttackName()">Récupérer les pokemons par leur nom d'attaque</a>
+            <a href="javascript:handleAttackByType()">Récupérer les attaques par leur type</a>
+            <a href="javascript:handleSortPokemonByName()">Trier les pokemons par ordre alphabetique</a>
+            <a href="javascript:handleSortPokemonByStamina()">Trier les pokemons dans l'odre décroissant de leur stamina</a>
+            <a href="javascript:handleWeakestEnemies()">Récupérer les pokemons les plus faible à une attaque</a>
+            <a href="javascript:handleBestAttackTypesForEnemy()">Récupérer le(s) type(s) le(s) plus efficace(s) contre un pokemon</a>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
